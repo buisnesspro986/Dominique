@@ -1,7 +1,7 @@
 PSEUDO :
 
 Github:
-NinjasTurtules -> Mathis Gogan 
+TurtulesNinjas -> Mathis Gogan 
 Cucurbitacée -> Koba Traore
 buisnesspro986 -> Aadil Jafar
 Villa -> Aly Demba
