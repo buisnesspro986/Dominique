@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Japanese tips</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
@@ -28,52 +29,79 @@
 
     <section id="sites-historiques">
         <h2>Sites Historiques</h2>
-        <article>
-            <h3>Temple Senso-ji</h3>
-            <img src="src/image/visiter-temple-senso-ji.jpg" alt="Temple Senso-ji" width="300">
-            <p>Le plus ancien temple de Tokyo, idéal pour découvrir l’histoire et la culture japonaise.</p>
-        </article>        
-        <article>
-            <h3>Meiji Jingu</h3>
-            <p>Un sanctuaire shinto entouré de forêt, un lieu paisible et spirituel en plein Tokyo.</p>
-        </article>
+        <div class="flex-container">
+            <article class="card">
+                <h3>Temple Senso-ji</h3>
+                <img src="src/image/visiter-temple-senso-ji.jpg" alt="Temple Senso-ji" width="300">
+                <p>Le plus ancien temple de Tokyo, idéal pour découvrir l’histoire et la culture japonaise.</p>
+            </article>        
+            <article class="card">
+                <h3>Meiji Jingu</h3>
+                <img src="src/image/meiji.jpg" alt="Meiji Jingu" width="300">
+                <p>Un sanctuaire shinto entouré de forêt, un lieu paisible et spirituel en plein Tokyo.</p>
+            </article>
+        </div>
     </section>
 
     <section id="quartiers-populaires">
         <h2>Quartiers Populaires</h2>
-        <article>
-            <h3>Shibuya</h3>
-            <p>Célèbre pour son carrefour très fréquenté et la statue de Hachiko.</p>
-        </article>
-        <article>
-            <h3>Shinjuku</h3>
-            <p>Connu pour ses gratte-ciel, sa vie nocturne et son parc magnifique.</p>
-        </article>
+        <div class="flex-container">
+            <article class="card">
+                <h3>Shibuya</h3>
+                <img src="src/image/shibuya.jpeg" alt="Shibuya" width="300">
+                <p>Célèbre pour son carrefour très fréquenté et la statue de Hachiko.</p>
+            </article>
+            <article class="card">
+                <h3>Shinjuku</h3>
+                <img src="src/image/shinjiku.jpg" alt="Shinjuku" width="300">
+                <p>Connu pour ses gratte-ciel, sa vie nocturne et son parc magnifique.</p>
+            </article>
+        </div>
     </section>
 
     <section id="nature-parcs">
         <h2>Nature et Parcs</h2>
-        <article>
-            <h3>Parc Ueno</h3>
-            <p>Un grand parc avec des musées, un zoo, et des cerisiers en fleurs au printemps.</p>
-        </article>
+        <div class="flex-container">
+            <article class="card">
+                <h3>Parc Ueno</h3>
+                <img src="src/image/parcueno.jpg" alt="Parc Ueno" width="300">
+                <p>Un grand parc avec des musées, un zoo, et des cerisiers en fleurs au printemps.</p>
+            </article>
+        </div>
     </section>
 
     <section id="culture-musees">
         <h2>Culture et Musées</h2>
-        <article>
-            <h3>Musée National de Tokyo</h3>
-            <p>Le plus grand musée du Japon, présentant l'art et l'histoire japonaise.</p>
-        </article>
+        <div class="flex-container">
+            <article class="card">
+                <h3>Musée National de Tokyo</h3>
+                <img src="src/image/museetokyo.jpg" alt="Musée National de Tokyo" width="300">
+                <p>Le plus grand musée du Japon, présentant l'art et l'histoire japonaise.</p>
+            </article>
+        </div>
     </section>
 
     <section id="infos-pratiques">
         <h2>Infos Pratiques</h2>
-        <p>Conseils pour les transports, les saisons, et les habitudes culturelles à Tokyo.</p>
-    </section>
+        <div class="flex-container">
+            <div class="info-card">
+                <h3>Transports</h3>
+                <p>Utilisez une carte Suica ou Pasmo pour simplifier vos déplacements, respectez le silence et évitez les heures de pointe.</p>
+            </div>
+            <div class="info-card">
+                <h3>Saisons</h3>
+                <p>Le printemps et l'automne sont les meilleures saisons à Tokyo. En été, prévoyez des vêtements légers, et en hiver, habillez-vous chaudement.</p>
+            </div>
+            <div class="info-card">
+                <h3>Culture</h3>
+                <p>Retirez vos chaussures dans les maisons, restez discret en public, et respectez les coutumes dans les temples et onsen.</p>
+            </div>
+        </div>
+    </section>    
 
     <footer>
         <p>&copy; 2024 - Découvrir Tokyo</p>
     </footer>
 </body>
 </html>
+
